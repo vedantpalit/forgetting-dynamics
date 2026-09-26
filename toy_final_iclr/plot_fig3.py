@@ -12,7 +12,7 @@
     peak of s (dotted); the shared margin is ~0 after the first steps.
 
 (a): seed 0, base configuration, gate-matched rate (the same as (b), (c)). (b), (c): ten seeds,
-reduced_equation.json. Style: set_default_style of Understanding-distillation/code/plot.py, with
+reduced_equation.json. Style: a shared set_default_style, with
 the serif font, the colors and no minor ticks.
 
 Run: JAX_PLATFORMS=cpu uv run python plot_fig3.py

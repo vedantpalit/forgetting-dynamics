@@ -1,4 +1,4 @@
-"""The minimal associative memory : one matrix, one normalizer, one readout.
+"""The minimal associative memory: one matrix, one normalizer, one readout.
 
     h = k W                     W: (d, d)   the store
     z = rms(h) U                U: (d, V)   the readout; rms(x) = sqrt(d) x/||x||

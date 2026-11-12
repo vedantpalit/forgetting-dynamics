@@ -599,7 +599,7 @@ def population_rank_metrics(state, ds, own_half: str, x_ids, y_ids, baseline_own
 def evaluate_and_log(state, eval_sets, cfg, gstep, extra=None, baseline=None, l_pretrained=None,
                      rank_ctx=None, l_pretrained_own=None) -> dict:
     """Evaluate and log. When `baseline` is given, also logs `{name}/hallucination_gap` =
-    attribute_loss - baseline for every dataset (Zucchet §4.1's signature: positive means
+    attribute_loss - baseline for every dataset (the signature described in prior work: positive means
     confidently WRONG, i.e. worse than a uniform guess over the value pool — the natural
     read for dataC, which neither phase ever trains on). When `l_pretrained` is also given
     (a dict of each dataset's attribute_loss at this run's own starting point), additionally

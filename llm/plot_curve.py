@@ -1,6 +1,6 @@
 """A-vs-B curve for an LLM injection run, in the small model's figure style.
 
-Matches `a_vs_b_zucchet_style.png`: navy A, crimson B, a standard-error band on A, dotted
+Style: navy A, crimson B, a standard-error band on A, dotted
 phase markers with rotated italic labels, boxed spines, no grid.
 
 A IS THE NON-COPY STRATUM. 62% of the gated set is answerable by copying the answer out of the
@@ -46,7 +46,7 @@ def phases(steps, acc):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--run", default="llm/out/inject_lr1e-05_seed0.json")
-    ap.add_argument("--out", default="llm_a_vs_b_zucchet_style.png")
+    ap.add_argument("--out", default="llm_a_vs_b.png")
     ap.add_argument("--xmax", type=int, default=None, help="default: 2x B's ceiling step")
     a = ap.parse_args()
 

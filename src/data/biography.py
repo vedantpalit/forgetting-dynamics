@@ -1,4 +1,4 @@
-"""Synthetic biography dataset (Zucchet et al. 2025), adapted for continual learning.
+"""Synthetic biography dataset from prior work, adapted for continual learning.
 
 Each individual has 6 attributes (birthdate, birthplace, university, major,
 company, work_location) rendered through natural-language templates. Sequences

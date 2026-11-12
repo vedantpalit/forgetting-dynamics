@@ -4,7 +4,7 @@ SS4.5, both 5e-4 and 1e-3 reached ceiling in the probe, 5e-4 kept for consistenc
 the pilot rather than introducing a second variable alongside the architecture change).
 
 Does not assume 8000 steps (the pilot's own budget) is right at this scale. Runs a
-16,000-step budget (Zucchet's own step count, not an arbitrary guess) with checkpoints
+16,000-step budget (the step count of prior work, not an arbitrary guess) with checkpoints
 every 1000 steps from 6000 through 16000, so whichever step turns out to be converged
 already has a usable checkpoint -- no wasted rerun. Reports dataA/ballast accuracy at
 every checkpoint explicitly, confirms both cross the 0.90 gate, and computes occupancy

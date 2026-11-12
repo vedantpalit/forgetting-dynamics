@@ -6,7 +6,7 @@ though the coarse cross-half suppression mechanism should, if anything, favour A
 B's half). That drop is currently unexplained.
 
 The hypothesis under test: the fast phase is not "half-Y targeting" so much as the model
-re-fitting the conditional marginal over values AT VALUE POSITIONS generally -- Zucchet's
+re-fitting the conditional marginal over values AT VALUE POSITIONS generally -- the
 phase-1 marginal-learning, recurring because B's arrival changes what a value position is
 expected to contain. Ballast suffers catastrophically because the new marginal excludes
 its half entirely; A suffers mildly because it is on the right side of the marginal, but

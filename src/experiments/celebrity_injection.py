@@ -5,7 +5,7 @@ remainder of A shows a graded margin response by name-part overlap with that sub
 the positive-sign counterpart to §3.12's token-clustering damage mechanism: if writing to a
 shared component damages everyone holding it, reinforcing one should benefit everyone holding
 it. It is also the identical-adjacent boundary condition §4.5 lists as unmeasured, and the
-mechanistic account for Zucchet's own unexplained celebrities result (§1.1, ~50%->70% on the
+mechanistic account for the unexplained celebrities result of prior work (§1.1, ~50%->70% on the
 untouched population).
 
 PRE-REGISTRATION (settled before this ran; do not revise after seeing results)
@@ -49,7 +49,7 @@ PRE-REGISTRATION (settled before this ran; do not revise after seeing results)
 
   Falsification: a flat shared_count gradient (uniform margin change across all four groups)
   means the benefit/cost isn't flowing through shared components, and the mechanism doesn't
-  explain Zucchet's celebrities result. "No change at all" is reported as a DISTINCT outcome
+  explain the celebrities result. "No change at all" is reported as a DISTINCT outcome
   from "uniform change" -- the first says fine-tuning on 100 people had no detectable effect
   at this scale, the second says an effect exists but isn't graded by overlap.
 

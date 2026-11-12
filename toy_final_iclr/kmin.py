@@ -5,7 +5,7 @@
     p = softmax(z)
 
 The readout has three arms, set by `norm`: 1 = rms (the model), 2 = ReLU, 0 = none (z = h U,
-the Zucchet toy). That is the only difference between them, and it is what separates a
+the toy of prior work). That is the only difference between them, and it is what separates a
 monotone shift from one that is withdrawn (paper/math.tex): only the rms puts a term along
 the new fact's own state into the gradient, with the sign of its confidence.
 

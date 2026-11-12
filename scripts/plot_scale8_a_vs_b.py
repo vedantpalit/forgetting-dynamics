@@ -1,6 +1,6 @@
-"""A vs B first-token accuracy during injection, 8-layer standard arm, in the Zucchet style.
+"""A vs B first-token accuracy during injection, 8-layer standard arm.
 
-Same figure style as `llm/plot_curve.py` and `a_vs_b_zucchet_style.png`: navy A, crimson B,
+Same figure style as `llm/plot_curve.py`: navy A, crimson B,
 serif type, boxed spines, no grid, a shaded band on each curve.
 
 THE THREE PHASES ARE DIVIDED BY VERTICAL DOTTED RULES at the measured trough and peak --

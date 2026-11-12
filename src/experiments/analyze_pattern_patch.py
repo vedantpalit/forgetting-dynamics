@@ -1,6 +1,6 @@
 """Is delta produced by attention PATTERN change, or by what attention writes? (§3.21, patching)
 
-Zucchet et al. (arXiv 2503.21676) locate the extraction circuit -- which selects and relays
+Prior work locates the extraction circuit -- which selects and relays
 information according to the requested attribute type -- in the FINAL attention layer. §3.21.8
 found delta entering overwhelmingly at block 7: 40-50% of the total, 21.7 at the trough against
 6.6 for the next largest. Same location. That invites a reading delta has not been tested

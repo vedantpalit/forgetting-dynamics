@@ -101,10 +101,13 @@ def main():
                          "(the toy's population D: the write lifts A's own answers)")
     ap.add_argument("--tag", default="",
                     help="suffix for the output file: b_facts_<tag>.json")
+    ap.add_argument("--model_id", default=MODEL_ID,
+                    help="HF id of the tokenizer; the gate (--gate) must have been built on "
+                         "the same model")
     a = ap.parse_args()
     attrs = a.attrs.split(",") if a.attrs else list(ATTRS)
     rng = random.Random(a.seed)
-    tok = AutoTokenizer.from_pretrained(MODEL_ID)
+    tok = AutoTokenizer.from_pretrained(a.model_id)
     corpus = load_corpus()
     ds = load_dataset(DATASET_ID, split="train")
 
